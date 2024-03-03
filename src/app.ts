@@ -1,4 +1,6 @@
-const { getAge, getUUID, buildLogger } = require('./plugins');
+// const { getAge, getUUID, buildLogger } = require('./plugins');
+
+import { buildLogger } from "./plugins";
 
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
@@ -9,8 +11,8 @@ const { getAge, getUUID, buildLogger } = require('./plugins');
 
 const logger = buildLogger('app.js');
 
-logger.log('Hello World');
-logger.error('Esto es algo malo');
+// logger.log('Hello World');
+// logger.error('Esto es algo malo');
 
 // getPokemonById(4)
 //   .then( ( pokemon ) => console.log({ pokemon }) )
@@ -28,3 +30,5 @@ logger.error('Esto es algo malo');
 // const john = makePerson( obj );
 
 // console.log({ john });
+console.log('hola mundo');
+logger.error('Esto es algo malo');
