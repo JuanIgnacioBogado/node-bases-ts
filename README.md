@@ -1,5 +1,4 @@
-# 02 Bases de Node
-
+# Bases de Node y testing con TS
 
 Correr en Dev
 ```
